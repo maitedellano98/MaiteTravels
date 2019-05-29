@@ -52,6 +52,17 @@ hr {
 }
 
 /*
+ * Add font
+ */
+
+@font-face {
+font-family: "PlayfairDisplaySC";
+src: url("css/fonts/PlayfairDisplaySC-Regular.ttf");
+}
+
+
+
+/*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
@@ -126,8 +137,23 @@ textarea {
 
 .social-logos{
   width: 30px;
+  margin: 12px;
 }
 
+
+#ccc {
+  font-family: PlayfairDisplaySC;
+  font-size: 36px;
+  margin: 12px;
+  text-align: center;
+
+}
+
+.menu{
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+}
 
 
 
